@@ -12,6 +12,10 @@ DVC NLP Project
 ### STEP 03- Create a conda environment after opening the repository in VSCODE
 
 ```bash
+source activate base
+```
+
+```bash
 conda create --prefix ./env python=3.7 -y
 ```
 
@@ -24,6 +28,10 @@ source activate ./env
 ```
 
 ### One shot create and activate environment
+```bash
+source activate base
+```
+
 ```bash
 conda create --prefix ./env python=3.7 -y && source activate ./env
 ```
